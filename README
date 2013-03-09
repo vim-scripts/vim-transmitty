@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4466
+
+A simple vim plugin that sends the current file to Transmit to be uploaded, using its "dropsend" feature. The plugin also does a shallow search for compiled files. For example, if you're working on a SCSS, LESS or Stylus stylesheet, it will look for the compiled CSS file and upload that instead.
+
+
+KEY MAPS
+
+    <leader>ou        " Send file to Transmit
+    <leader>oU       " Send file to Transmit (but don't look for compiled files)
